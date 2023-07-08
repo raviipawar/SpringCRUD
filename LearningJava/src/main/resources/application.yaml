@@ -1,0 +1,27 @@
+spring:
+  data:
+    mongodb:
+       uri: mongodb://localhost:27017/mygrocerylist
+       database: employees
+    
+---
+
+spring:
+  data:
+    mongodb:
+       uri: mongodb://localhost:27017/mygrocerylist_test
+       database: employees_test
+
+---
+
+spring:
+  data:
+    mongodb:
+       uri: mongodb://localhost:27017/mygrocerylist_prod
+       database: employees_prod
+---
+
+spring:
+  profiles:
+    active: develop
+       
