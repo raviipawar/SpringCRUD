@@ -24,4 +24,10 @@ spring:
 spring:
   profiles:
     active: develop
+
+    
+server:
+  servlet:
+    context-path: /api/employees
+
        
